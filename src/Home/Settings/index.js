@@ -1,8 +1,6 @@
 import {createStackNavigator} from 'react-navigation-stack';
-import Home from './home';
-import Details from './details';
+import SettingsHome from './SettingsHome';
 
 export default createStackNavigator({
-  Home,
-  Details,
+  SettingsHome,
 });

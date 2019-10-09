@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
-class CPUDetails extends Component {
+class CreateConversation extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>CPU Details</Text>
+        <Text>test</Text>
       </View>
     );
   }
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CPUDetails;
+export default CreateConversation;

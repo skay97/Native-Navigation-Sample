@@ -3,23 +3,23 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import MemoryScreen from './Memory';
-import CPUScreen from './CPU';
+import SettingsStackNavigator from './Settings';
+import HomeStackNavigator from './Messaging';
 
 const SettingsTabs = createBottomTabNavigator({
-  CPU: {
-    screen: CPUScreen,
+  Messaging: {
+    screen: HomeStackNavigator,
     navigationOptions: {
-      title: 'CPU',
+      title: 'Conversations Tab',
       tabBarIcon: ({tintColor}) => (
         <Icon name="microchip" size={17} color={tintColor} />
       ),
     },
   },
-  Memory: {
-    screen: MemoryScreen,
+  Settings: {
+    screen: SettingsStackNavigator,
     navigationOptions: {
-      tabBarLabel: 'Memory',
+      tabBarLabel: 'Memory Tab',
       tabBarIcon: ({tintColor}) => (
         <Icon name="memory" size={17} color={tintColor} />
       ),

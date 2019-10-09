@@ -3,9 +3,9 @@ import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Styles from '../../styles';
 
-class MemoryHome extends Component {
+class SettingsHome extends Component {
   static navigationOptions = ({navigation}) => ({
-    title: 'Memory',
+    title: 'Settings',
     headerLeft: (
       <TouchableOpacity
         style={Styles.headerButton}
@@ -18,11 +18,11 @@ class MemoryHome extends Component {
   render() {
     return (
       <View style={Styles.container}>
-        <Text>Memory Settings</Text>
+        <Text>This is where your settings live</Text>
         <Icon name="memory" size={48} />
       </View>
     );
   }
 }
 
-export default MemoryHome;
+export default SettingsHome;
