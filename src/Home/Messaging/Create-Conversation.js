@@ -5,7 +5,7 @@ class CreateConversation extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>test</Text>
+        <Text>Create conversation page</Text>
       </View>
     );
   }
