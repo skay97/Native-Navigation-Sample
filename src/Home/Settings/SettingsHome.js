@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Styles from '../../styles';
 
@@ -19,7 +19,7 @@ class SettingsHome extends Component {
     return (
       <View style={Styles.container}>
         <Text>This is where your settings live</Text>
-        <Icon name="memory" size={48} />
+        <Icon name="cog" size={48} />
       </View>
     );
   }

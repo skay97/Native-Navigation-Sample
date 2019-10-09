@@ -2,12 +2,12 @@ import React from 'react';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import {createAppContainer} from 'react-navigation';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import Settings from './Home'; //Tab Nav
+import TabsScreen from './Home'; //Tab Nav
 import Profile from './Profile'; //Stack Nav
 
 const App = createDrawerNavigator({
-  Settings: {
-    screen: Settings,
+  Conversations: {
+    screen: TabsScreen,
     navigationOptions: {
       drawerLabel: 'Conversations',
       drawerIcon: ({tintColor}) => <Icon name="cog" size={17} />,
