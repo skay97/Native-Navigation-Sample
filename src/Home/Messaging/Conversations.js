@@ -20,7 +20,7 @@ import Styles from '../../styles';
 const users = [
   {
     name: 'Dave',
-    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
   },
   {
     name: 'Mike',
@@ -29,15 +29,17 @@ const users = [
   },
   {
     name: 'Mark',
-    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg',
+    avatar: 'https://randomuser.me/api/portraits/men/67.jpg',
   },
   {
     name: 'Hai',
-    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    avatar:
+      'https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNTAzMTA4OTJeQTJeQWpwZ15BbWU3MDA4NDI2Njk@._V1_UX172_CR0,0,172,256_AL_.jpg',
   },
   {
     name: 'Salman',
-    avatar: 'https://picsum.photos/id/1075/200',
+    avatar:
+      'https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2ODE2NDQ5OF5BMl5BanBnXkFtZTcwOTU3OTM1OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg',
   },
   {
     name: 'Chris',
