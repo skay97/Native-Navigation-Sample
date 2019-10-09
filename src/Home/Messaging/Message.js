@@ -5,7 +5,7 @@ class Message extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Person Text Thread</Text>
+        <Text>Text Thread</Text>
       </View>
     );
   }
