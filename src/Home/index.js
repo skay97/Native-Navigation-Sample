@@ -19,7 +19,7 @@ const Tabs = createBottomTabNavigator({
   Settings: {
     screen: SettingsStackNavigator,
     navigationOptions: {
-      tabBarLabel: 'Memory Tab',
+      tabBarLabel: 'Settings Tab',
       tabBarIcon: ({tintColor}) => (
         <Icon name="cog" size={17} color={tintColor} />
       ),
