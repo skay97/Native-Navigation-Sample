@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import {View, TouchableOpacity} from 'react-native';
 import {
   Container,
-  Button,
   Fab,
-  Header,
   Content,
   List,
   ListItem,
@@ -121,7 +119,6 @@ class CPUHome extends Component {
             );
           })}
         </Content>
-        {/* <View style={{flex: 1}}> */}
         <Fab
           active={this.state.active}
           direction="up"
@@ -133,7 +130,6 @@ class CPUHome extends Component {
             onPress={() => this.props.navigation.navigate('CreateConversation')}
           />
         </Fab>
-        {/* </View> */}
       </Container>
     );
   }

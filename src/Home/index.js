@@ -4,11 +4,11 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import SettingsStackNavigator from './Settings';
-import HomeStackNavigator from './Messaging';
+import MessagingStackNavigator from './Messaging';
 
-const Tabs = createBottomTabNavigator({
+const TabsScreen = createBottomTabNavigator({
   Messaging: {
-    screen: HomeStackNavigator,
+    screen: MessagingStackNavigator,
     navigationOptions: {
       title: 'Conversations',
       tabBarIcon: ({tintColor}) => (
@@ -27,4 +27,4 @@ const Tabs = createBottomTabNavigator({
   },
 });
 
-export default createStackNavigator({Tabs}, {headerMode: 'none'});
+export default createStackNavigator({TabsScreen}, {headerMode: 'none'});

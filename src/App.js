@@ -5,6 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import TabsScreen from './Home'; //Tab Nav
 import Profile from './Profile'; //Stack Nav
 import settingsHomeStack from './Home/Settings/index';
+import conversationsScreen from './Home/Messaging/Conversations';
 
 const App = createDrawerNavigator({
   Conversations: {
